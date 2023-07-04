@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheather.App</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <div class="container">
+        <!-- nine div -->
+        <form onsubmit="getData(event)" class="searchData">
+        <input type="search" placeholder="search city here" id="inputBox"><button>Search</button>
+    </form>
+    <!-- <div class="img">
+        <img src="./1163657.png" alt="" width="300px" height="250px">
+        <img src="./4814268.png" alt=""width="300px" height="250px">
+    </div> -->
+        <div class="main">
+            <!-- eight div -->
+            <h1>Your Location</h1>
+        </div>
+        <section class="cityWheatherData"></section>
+        <section class="countrydetail">
+        <div class="card">
+            <!-- seventh div -->
+            <p>CountryName</p>
+            <p id="country">_____________</p>
+        </div>
+        <div class="card">
+            <!-- sixth <div></div> -->
+            <p>StateName</p>
+            <p id="statename">________</p>
+        </div>
+        <div class="card">
+            <!-- fifth div -->
+            <p>CityName</p>
+            <p id="cityname">__________</p>
+        </div>
+        </section>
+            <div class="wheaterdetails">
+                <div class="card1">
+                    <!-- fourth div -->
+                    <p>Humanidity</p>
+                    <p id="humanidity">___________</p>
+                </div>
+                <div class="card2">
+                    <!-- third div -->
+                    <p>Windspeed</p>
+                    <p id="wind">_________KMPH</p>
+                </div>
+                <div class="card3">
+                    <!-- second div -->
+                    <p>Tempreture</p>
+                    <p id="tempreture">______________</p>
+                </div>
+                 <div class="card4"> 
+                    <!-- first div -->
+                    <img src="" alt="" width="50px" id="logoimg">
+                    <p id="wheatherstatus">_________</p>
+                </div>
+            </div>
+    </div>
+    <script src="./wheather.js"></script>
+</body>
+</html>
